@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background"
+    tools:context="techkids.vn.buildpc.activities.MainActivity">
+   <LinearLayout
+       android:id="@+id/ll_input"
+       android:orientation="vertical"
+       android:gravity="center"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+      <TextView
+          android:id="@+id/tv_main_screen"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="WELCOME "
+          android:textColor="#FFFFFF"
+          android:textSize="50sp"
+          android:textStyle="bold" />
+
+      <EditText
+          android:id="@+id/et_input_money"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Input your money"
+          android:layout_marginTop="89dp" />
+
+      <Button
+          android:id="@+id/bt_start_build_pc"
+          android:text="Start build your own PC"
+          android:layout_marginTop="16dp"
+          android:textAllCaps="false"
+          android:background="@drawable/custom_radius_button"
+          android:backgroundTint="#2196F3"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"/>
+
+   </LinearLayout>
+</RelativeLayout>
